@@ -15,6 +15,7 @@ img {
   display: flex;
   margin: 0 auto;
   
+  
 }
 
 header {
@@ -110,7 +111,7 @@ main .conteiner span {
 }
 
 .heart {
-  background-color: red;
+  background-color: white;
   text-align: center;
   padding: 7px;
   width: 30px;
@@ -123,8 +124,44 @@ main::before{
   display: block;
   /* 50px perché il mio menu è alto 70 */
   height: 50px;
-  /* 50px perché il mio menu è alto 70 */
+  }
+
+  .conteiner .heart{
+    position: fixed;
+    right:68%;
+    margin-top: 26px;
+    margin-right: 8px;
+    
+  }
+
+  .conteiner .sconto{
+    position: fixed;
+    right: 92%;
+    bottom: 170px;
 }
+
+  .conteiner .materiale{
+    position: absolute;
+    right: 79%;
+    bottom: 45%;
+    margin-right: 7px;
+  }
+
+  .conteiner .text{
+    position: absolute;
+    right: 90%;
+    bottom:20px; 
+  }
+
+  .conteiner h3 {
+    position: absolute;
+    right: 77%;
+    bottom: 40px;
+    margin-right: 6px;
+
+  }
+    
+
 
 
 
