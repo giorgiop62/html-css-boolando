@@ -21,6 +21,8 @@ header {
   width: 100%;
   height: 50px;
   background-color: orange;
+  position: fixed;
+
   
 }
 
@@ -57,7 +59,7 @@ header .menu ul li{
 header .conteiner img {
   width: 150px;
   height: 50px;
-  padding: 10px;
+  padding-top:10px;
 }
 
 main .conteiner img {
@@ -116,16 +118,13 @@ main .conteiner span {
 
 }
 
-.fisso {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height:50px;
-  line-height: 50px;
-  
+main::before{
+  content: '';
+  display: block;
+  /* 50px perché il mio menu è alto 70 */
+  height: 50px;
+  /* 50px perché il mio menu è alto 70 */
 }
-
-
 
 
 
