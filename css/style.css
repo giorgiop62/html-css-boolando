@@ -22,7 +22,7 @@ header .conteiner .icone {
   
 }
 
-.logo {
+header.conteiner .logo{
     width: 150px;
     height: 50px;
     padding: 10px;
