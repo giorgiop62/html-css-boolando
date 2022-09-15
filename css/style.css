@@ -110,6 +110,50 @@ main {
   display: none;
 }
 
+.product .product-image .like,
+.product .product-image .badge {
+  position: absolute;
+}
+
+.product .product-image .like {
+  padding: 8px 12px;
+  top: 10px;
+  right: 0;
+  font-size: 3rem;
+  background-color: white;
+}
+
+.product .product-image .like:hover{
+  color: red;
+}
+
+.product .product-image .badge-discount {
+  color: white;
+  background-color:red;
+  padding: 5px 10px;
+}
+
+.product .product-image .badge-tag {
+  color: white;
+  background-color:green;
+  padding: 5px 10px;
+}
+
+/*non esce il prezzo rosso*/
+.product .product-image .badge {
+  bottom: 20px;
+  left: 0;
+}
+
+.product .price {
+  color: red;
+}
+
+
+
+
+
+
 
 
 
