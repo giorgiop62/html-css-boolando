@@ -80,6 +80,40 @@ header .logo {
   text-decoration: underline;
 }
 
+/*main*/
+
+main {
+  padding-top: 120px;
+  min-height: 800px;
+}
+
+.product {
+  width: calc(100% / 3);
+  margin-bottom: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product .product-image {
+  position: relative;
+}
+
+.product .image2 {
+  display: none;
+}
+
+.product .product-image:hover .image2 {
+  display: inline-block;
+}
+
+.product .product-image:hover .image1 {
+  display: none;
+}
+
+
+
+
+
 
 
 
