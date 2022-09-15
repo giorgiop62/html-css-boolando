@@ -149,6 +149,25 @@ main {
   color: red;
 }
 
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .conteiner {
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
